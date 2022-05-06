@@ -1,0 +1,278 @@
+body {
+    font-family: montserrat;
+    
+}
+.all-container{
+    width: 100%;
+    margin: auto;
+   border: solid black 2px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+ 
+}
+/* les timelines*/
+
+.timelines-container{
+    display: flex;
+    margin: 20px;
+}
+.timeline1 {
+    display: flex;
+    width: 62px;
+    border: solid 2px;
+    position: relative;
+    left: 30px;
+    margin-top:30px;
+}
+.timeline1::before {
+   border: solid 1px ;
+    content:"1" ;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   position: absolute;
+   left: -25px;
+   margin-top: -10px;
+   margin-left: 2px;
+   text-align: center;
+background-color: #138a72;
+}
+.timeline2 {
+    display: flex;
+    width: 62px;
+    border: solid 2px;
+    position: relative;
+    left: 30px;
+    margin-top:30px;
+}
+.timeline2::before {
+    border: solid 1px ;
+     content:"2" ;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: -25px;
+    margin-top: -10px;
+    margin-left: 2px;
+    text-align: center;
+ background-color: white;
+ }
+ .timeline3 {
+    display: flex;
+    width: 60px;
+    border: solid 2px;
+    position: relative;
+    left: 30px;
+    margin-top:30px;
+}
+.timeline3::before {
+    border: solid 1px ;
+     content:"3" ;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: -25px;
+    margin-top: -10px;
+    margin-left: 2px;
+    text-align: center;
+ background-color: white;
+ }
+ .timeline4 {
+    display: flex;
+    width: 60px;
+    border: solid 2px;
+    position: relative;
+    left: 30px;
+    margin-top:30px;
+}
+.timeline4::before {
+    border: solid 1px ;
+     content:"4" ;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: -25px;
+    margin-top: -10px;
+    margin-left: 2px;
+    text-align: center;
+ background-color: white;
+ }
+ .timeline5 {
+    display: flex;
+    border: solid 2px;
+    position: relative;
+    left: 30px;
+    margin-top:30px;
+ }
+ .timeline5::before {
+    border: solid 1px ;
+     content:"5" ;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: -25px;
+    margin-top: -10px;
+    margin-left: 5px;
+    text-align: center;
+ background-color:white
+ }
+ /* fin des timelines*/
+p {
+    color: #138a72;
+    margin-left: 5%
+
+}
+ .piece-selection {
+margin-top: 5%;
+ }
+ select {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 5px;
+ }
+ input{
+     width: 90%;
+     height: 30px;
+     border: solid 1px ;
+     border-radius: 5px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     outline: none;
+ }
+ .file-selection {
+     margin-bottom: 10px;
+ }
+ .file-choose {
+     border: dashed 1px ;
+     width: 90%;
+     height: 100px;
+ }
+ .file-dashed-selection{
+     border: none;
+     width: 70%px;
+     margin-bottom: 5px;
+     margin-top:50px ;
+     margin-left: 25px;
+     
+ }
+ .button {
+     text-align: center;
+     margin-top: 30px;
+
+ }
+ button {
+     width: 150px;
+     height:40px ;
+     background-color: #138a72;
+     color:white ;
+     border: none;
+     border-radius: 10px;
+     font-size: 25px;
+ }
+ button:hover:active {
+background-color:#df3e43;
+cursor: pointer;
+ }
+
+ form {
+    margin-left: 20px;
+    
+ }
+ h2{
+    margin-left: 50px; 
+ }
+ /* je commence le responsive */
+@media screen and (min-width: 470px) {
+   p {
+     
+   } 
+   .all-container{
+    width: 400px;  
+   border: solid black 1px; 
+}
+input {
+    width: 320px;
+}
+select {
+    width:320px;
+}
+.file-choose {
+    width: 320px;
+}
+}
+@media screen and (min-width: 1080px) {
+    .all-container{
+      width: 90%;  
+    }
+    .all-form-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    .part-one-form {
+        margin-right: 120px;
+    }
+    .part-two-form{
+        
+        margin-top: 5px;
+       
+        padding-left:100px ;
+        padding-right: 25px;
+    }
+    .file-dashed-choose {;
+    }
+    .timelines-container{
+        display: flex;
+        margin: 20px;
+    }
+    .timeline1 {
+        display: flex;
+        width: 250px;
+        border: solid 2px;
+        position: relative;
+        left: 30px;
+        margin-top:30px;
+    }
+    
+    .timeline2 {
+        display: flex;
+        width: 250px;
+        border: solid 2px;
+        position: relative;
+        left: 30px;
+        margin-top:30px;
+    }
+   
+     .timeline3 {
+        display: flex;
+        width: 200px;
+        border: solid 2px;
+        position: relative;
+        left: 30px;
+        margin-top:30px;
+    }
+    
+     .timeline4 {
+        display: flex;
+        width: 200px;
+        border: solid  2px;
+        position: relative;
+        left: 30px;
+        margin-top:30px;
+    }
+    
+     .timeline5 {
+        display: flex;
+        border: solid  red 2px;
+        position: relative;
+        left: 30px;
+        margin-top:30px;
+     }
+    .file-choose {
+        margin: auto;
+    }
+} 
+    
