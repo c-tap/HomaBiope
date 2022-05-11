@@ -1,0 +1,299 @@
+.timelines-container{
+    display: flex;
+    margin-left: 20px;
+}
+.timeline1 {
+    display: flex;
+    width: 62px;
+    height: 0px;
+    border: 1px solid;
+    position: relative;
+    left: 30px;
+    margin-top:30px;
+}
+.timeline1::before {
+    border: 1px solid  ;
+    content:"1" ;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   position: absolute;
+   left: -25px;
+   margin-top: -10px;
+   margin-left: 2px;
+   text-align: center;
+background-color: #00a082;
+}
+.timeline2 {
+    display: flex;
+    width: 62px;
+    height: 0px;
+    border: 1px solid ;
+    position: relative;
+    left: 30px;
+    margin-top:30px;
+}
+.timeline2::before {
+    border: 1px solid  ;
+     content:"2" ;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: -25px;
+    margin-top: -10px;
+    margin-left: 2px;
+    text-align: center;
+ background-color: white;
+ }
+ .timeline3 {
+    display: flex;
+    width: 60px;
+    height: 0px;
+    border: 1px solid ;
+    position: relative;
+    left: 30px;
+    margin-top:30px;
+}
+.timeline3::before {
+    border: 1px solid  ;
+     content:"3" ;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: -25px;
+    margin-top: -10px;
+    margin-left: 2px;
+    text-align: center;
+ background-color: white;
+ }
+ .timeline4 {
+    display: flex;
+    width: 60px;
+    height: 0px;
+    border: 1px solid ;
+    position: relative;
+    left: 30px;
+    margin-top:30px;
+}
+.timeline4::before {
+    border: 1px solid ;
+     content:"4" ;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: -25px;
+    margin-top: -10px;
+    margin-left: 2px;
+    text-align: center;
+ background-color: white;
+ }
+ .timeline5 {
+    display: flex;
+    height: 0px;
+    border: 1px solid ;
+    position: relative;
+    left: 30px;
+    margin-top:30px;
+ }
+ .timeline5::before {
+    border: 1px solid  ;
+    content:"5" ;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: -25px;
+    margin-top: -10px;
+    margin-left: 5px;
+    text-align: center;
+ background-color:white
+ }
+ @font-face {
+     font-family: "montserrat";
+     src: url(./Montserrat-Regular.otf);
+ }
+.container{
+    font-family:"montserrat";
+    border-radius: 15px;
+    padding: 10px;
+}
+.h2{
+    text-align: center;
+   
+}
+.radio,.checkbox,.account,.card-number-right,.card-number,.flex-content{
+    display: flex;
+}
+.card-number-right-first-child{
+    width: 90%;
+    border-radius: 3px;
+     border: 1px solid;
+     outline: none;
+     height: 25px;
+}
+.card-number-right-first-child-div{
+    margin-left: 20px;
+    
+}
+.card-number-right-second-child-div{
+    margin-left: 1px;
+}
+.card-number-right-second-child{
+    width: 95%;
+    border-radius: 3px;
+     border: 1px solid;
+     outline: none;
+     height: 25px;
+     margin-left: 10px;
+}
+.card-number-right{
+   width: 50%;
+   margin-left: 0px;
+}
+.phone{
+    margin-top: 20px;
+}
+.phone-number{
+    width: 100%;
+    border-radius: 3px;
+     border: 1px solid;
+     outline: none;
+     height: 25px;
+    
+}
+.input{
+    width:100% ;
+}
+.date{
+    margin-left: 120px;
+    border: none;
+    width: 20%;
+    outline: none;
+}
+.hour{
+    margin-left: 110px;
+    border: none;
+    width: 20%;
+    outline: none;
+   
+}
+.total{
+    border: none;
+    margin-left: 80px;
+    width: 20%;
+    outline: none;
+}
+.remise{
+    border: none;
+    margin-left: 100px;
+    width: 20%;
+    outline: none;
+}
+.total-off{
+    border: none;
+    margin-left: 120px;
+    margin-bottom: 20px;
+   
+}
+.bar{
+    width: 200px;
+    height: 0px;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.button{
+    background-color: #00a082;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.button:active{
+    background-color:rgba(61, 6, 24, 0.5);
+}
+
+/* mobile */
+
+@media screen and (min-width:350px) {
+   .container{
+    margin: auto;
+    width: 350px;
+   }
+   .input{
+    border-radius: 3px;
+     border: 1px solid;
+     outline: none;
+     height: 25px;
+   }
+   .card-container{
+    border: 1px solid;
+    width: 310px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 5px;
+}
+
+    
+}
+
+ /* media query tablette */
+
+ @media  screen and ( min-width:750px){
+    .container{
+        width: 750px;
+        margin:auto ;
+    }
+    .payement{
+        display: flex;
+    }
+    .detail{
+        margin-top: -80px;
+        margin-left: 50px;
+        padding-left: 20px;
+    }
+    .h2{
+        margin: auto;
+    }
+    .card-container{
+        border: 1px solid;
+        width: 700px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 1px 0px 5px;
+    }
+    .timeline3,.timeline4,.timeline2,.timeline1 {
+        width: 150px;
+     }
+     .timelines-container{
+         margin-left: 5%;
+     }
+       
+
+    }
+
+    @media  screen and ( min-width:1200px){
+        .card-container{
+            width: px;
+           
+        }
+        
+    }
