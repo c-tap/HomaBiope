@@ -1,0 +1,2153 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #138a72;
+}
+
+.container {
+    width: 100%;
+}
+
+.connexion-container {
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wecome-container {
+    border: 1px solid;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #383838;
+}
+
+.welcome,
+.day,
+.mail {
+    color: white;
+    font-size: 1.1em;
+}
+
+.day-and-mail-container {
+    margin: 15px;
+}
+
+.day {
+    margin-right: 15px;
+}
+
+.logo-wrapper {
+    width: 100%;
+    height: 100px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.info-animate {
+    border: 1px solid;
+    border-radius: 50px;
+    width: 900px;
+    height: 50px;
+}
+
+marquee {
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: black;
+}
+
+.logoPicture {
+    margin-top: -5px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.signing-container {
+    display: flex;
+}
+
+.sign-in,
+.login-up {
+    color: black;
+    border: 2px solid #0b5e99;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+}
+
+
+.nav {
+    text-align: center;
+    background-color: #146c53;
+    height: 50px;
+    line-height: 50px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+
+.menu a {
+    color: white;
+    font-weight: bold;
+    margin: 0 30px;
+    line-height: 15px;
+
+}
+
+.bars {
+    margin: 30px 10px 0 0;
+    font-size: 2em;
+    line-height: 30px;
+    color: white;
+    display: none;
+    width: 30px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+.icone-section {
+    font-size: 50px;
+    margin-left: 10px;
+    color: #0b5e99;
+}
+
+.okoto {
+    width: 100%;
+    height: 800px;
+}
+
+.card-text {
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.detail {
+    color: white;
+    font-weight: bold;
+
+}
+
+.card-text-explain {
+    margin-left: 10px;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.read-more-text {
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: #146c53;
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.read-more-text:hover {
+    background-color: #0b5e99;
+}
+
+.six-fiction {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.text-container {
+    padding: 10%;
+    color: white;
+    font-size: 40px;
+    margin-left: 2%;
+}
+
+.text-container>.bienvenue {
+    font-size: 23px;
+
+}
+
+.text-container>.demarches-admin {
+    font-size: 20px;
+}
+
+
+.fourth-container {
+    background-image: url(images/img13.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+
+.read-more {
+    width: 120px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #146c53;
+    color: white;
+    font-weight: bold;
+    font-size: 0.4em;
+}
+
+.read-more:hover {
+    cursor: pointer;
+    background-color: #0b5e99;
+}
+
+.fifth-section {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 50px 50px; */
+}
+
+.square {
+    width: 250px;
+    height: 300px;
+    background-color: none;
+    margin-top: 50px;
+    box-shadow: 0px 3px 3px 2px #dfdfdf;
+
+}
+
+.square-square {
+    background-color: #146c53;
+    width: 250px;
+    height: 8px;
+    margin-bottom: 10px;
+}
+
+/* FIN DE NOS SERVICES */
+
+.six-fiction {
+    display: flex;
+    justify-content: space-around;
+}
+
+.signature {
+    margin-top: 60px;
+    font-size: 1em;
+    color: black;
+
+}
+
+.homabiope-express {
+    font-size: 45px;
+}
+
+.homabiope-express2 {
+    font-size: 45px;
+}
+
+.trait-rouge {
+    width: 40px;
+    border: 3px solid #0b5e99;
+}
+
+.trait-noir {
+    width: 20px;
+    border: 3px solid #0b5e99;
+}
+
+.trait {
+    display: flex;
+}
+
+.bg-videoImage {
+    background-image: url(images/prohoma.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+video {
+    border: 3px solid white;
+    width: 70%;
+    height: 200px;
+    margin-left: 45px;
+    margin-top: 100px;
+    padding: 0;
+    color: white;
+}
+
+.text-video {
+    font-size: 20px;
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.favicon-section {
+    padding: 20px;
+}
+
+.first-favicon {
+    color: #0b5e99;
+}
+
+.favicon-text {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.call-section {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.six-section-button {
+    margin-left: 30px;
+}
+
+.section-learn-more {
+    margin-top: 15px;
+}
+
+.trait-blanc {
+    width: 500px;
+    border: 1px solid #7e7e7e;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.seven-section-icone {
+    display: flex;
+}
+
+.number-section {
+    font-size: 40px;
+    font-weight: bold;
+    color: #146c53;
+    margin: 0 0 0 30px;
+}
+
+.icone-seven-section {
+    font-size: 50px;
+    color: #0b5e99;
+}
+
+.image-seven-section {
+    background-image: url(images/prohoma.jpg);
+    width: 400px;
+    height: 430px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.seven-section {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+
+.seven-section-right {
+    margin-left: 10%;
+}
+
+.seven-section-right {
+    margin-left: 10%;
+}
+
+.text1-section-seven {
+    font-size: 23px;
+    margin: 0 0 0 30px;
+}
+
+.text2-section-seven {
+    font-size: 20px;
+    margin: 0 0 0 30px;
+}
+
+.eight-section {
+    margin-top: 120px;
+}
+
+.eight-section-bigblock {
+    background-image: url(images/resident.jpg);
+    height: 400px;
+    width: 100%;
+
+}
+
+.eight-section-smallblock {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 70%;
+    height: 160px;
+    position: relative;
+    z-index: 1;
+    bottom: -350px;
+    margin: auto;
+    box-shadow: 0px 5px 5px #dfdfdf;
+}
+
+.icone-small-block {
+    margin-top: 35px;
+    font-size: 30px;
+}
+
+.icone-section-huit {
+    margin-left: 35px;
+}
+
+.text-eight-section {
+    font-size: 40px;
+    margin-top: 18px;
+    color: white;
+    margin-left: 16%;
+}
+
+.second-text-eight-section {
+    font-size: 23px;
+    color: white;
+    max-width: 50%;
+    margin-left: 16%;
+}
+
+.trait-to {
+    display: flex;
+    margin-left: 16%;
+    padding: 20px;
+}
+
+.eight-section-bigblock {
+    padding-top: 30px;
+    position: absolute;
+}
+
+.news-letter-text {
+    font-size: 30px;
+    color: black;
+}
+
+.nine-section {
+    margin-top: 30%;
+    margin-bottom: 40px;
+
+}
+
+.icone-section-huit>i {
+    color: #0b5e99;
+}
+
+.input-letter-square {
+    width: 700px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #dfdfdf;
+
+}
+
+.news-letter-text {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.nine-section-button {
+    padding: 15px;
+    background-color: #138a72;
+    border-radius: 30px;
+    color: white;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.news-letter-square {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-nine-section-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    padding-top: 200px;
+    padding-bottom: 0;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+li {
+    padding: 10px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.socialMedia {
+    font-size: 30px;
+}
+
+.mediaIcons {
+    color: white;
+    padding: 5px;
+}
+
+
+
+/* MEDIA QUERIE  */
+
+@media only screen and (max-width: 500px) {
+    .bars {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav {
+        background-color: #146c53;
+        height: 150px;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        margin: 28px 30px 0 0;
+        text-align: center;
+
+    }
+
+    #toggle:checked+.menu {
+        display: block;
+    }
+
+    .info-animate {
+        border: none;
+        border-radius: 0;
+        width: 0;
+        height: 0;
+    }
+
+    marquee {
+        text-align: center;
+        padding-top: 15px;
+        text-transform: uppercase;
+        font-size: 1em;
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 571px) {
+
+    .menu a {
+        display: inline;
+        justify-content: center;
+        margin: 25px 5px 0 30px;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .connexion-container {
+        border: 1px solid;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .wecome-container {
+        border: 1px solid;
+        /* padding: 10px; */
+        display: none;
+        justify-content: space-around;
+        background-color: none;
+    }
+
+    .welcome,
+    .day,
+    .mail {
+        color: white;
+        font-size: 0;
+    }
+
+    .day-and-mail-container {
+        margin: 15px;
+    }
+
+    .day {
+        margin-right: 15px;
+    }
+
+    .logo-wrapper {
+        width: 100%;
+        height: 50px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .info-animate {
+        border: 0;
+        border-radius: 0;
+        width: 0;
+        height: 0;
+    }
+
+    marquee {
+        text-align: center;
+        padding-top: 0;
+        text-transform: uppercase;
+        font-size: 0;
+        color: none;
+    }
+
+    .logoPicture {
+        margin-top: 5px;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .signing-container {
+        display: flex;
+    }
+
+    .sign-in,
+    .login-up {
+        color: black;
+        border: 2px solid #0b5e99;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+        font-size: 0.6em;
+    }
+
+    /* WElcome background */
+    .fourth-container {
+        background-image: url(images/img13.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 550px;
+    }
+
+    .text-container {
+        padding: 10%;
+        color: white;
+        margin-left: 2%;
+    }
+
+    .text-container>.bienvenue {
+        font-size: 0.4em;
+
+    }
+
+    .text-container>.demarches-admin {
+        font-size: 0.5em;
+    }
+
+    .demarches {
+        font-size: 0.7em;
+        color: #138a72;
+        font-weight: bold;
+    }
+
+    .read-more {
+        width: 120px;
+        padding: 12px;
+        border-radius: 5px;
+        border: none;
+        background-color: #146c53;
+        color: white;
+        font-weight: bold;
+        font-size: 0.4em;
+    }
+
+    .read-more:hover {
+        cursor: pointer;
+        background-color: #0b5e99;
+    }
+
+    /* NOS SERVICES SECTION */
+    .fifth-section {
+        display: block;
+        width: 250px;
+        margin: auto;
+        justify-content: center;
+        /* padding: 50px 50px; */
+    }
+
+    .square {
+        width: 250px;
+        height: 300px;
+        background-color: none;
+        margin-top: 50px;
+        box-shadow: 0px 3px 3px 2px #dfdfdf;
+
+    }
+
+    .square-square {
+        background-color: #146c53;
+        width: 250px;
+        height: 8px;
+        margin-bottom: 10px;
+    }
+
+    .section-learn-more {
+        display: flex;
+    }
+
+    .learn-more {
+        background-color: #146c53;
+        border-radius: 5px;
+        width: 120px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    .learn-more:hover {
+        background-color: #0b5e99;
+        cursor: pointer;
+    }
+
+    /* FIN DE NOS SERVICES SECTION */
+
+    .six-fiction {
+        display: block;
+        justify-content: space-around;
+    }
+
+
+    .homabiope-express {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    .trait-rouge {
+        width: 40px;
+        border: 3px solid #0b5e99;
+    }
+
+    .trait-noir {
+        width: 20px;
+        border: 3px solid #0b5e99;
+    }
+
+    .trait {
+        display: flex;
+    }
+
+    .text-video {
+        font-size: 0.9em;
+        width: 98%;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .favicon-section {
+        padding: 10px;
+    }
+
+    .first-favicon {
+        color: #0b5e99;
+        font-size: 15px;
+    }
+
+    .text-favicon {
+        font-size: 0.8em;
+        padding-left: 5px;
+    }
+
+    .favicon-text {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .call-section {
+        font-size: 0.9em;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .trait-blanc {
+        width: 350px;
+        border: 1px solid #7e7e7e;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    /* HOMABIOPE EXPRESS 2 */
+
+    .bg-videoImage {
+        background-image: none;
+        width: 0;
+        height: 0;
+        margin: 0;
+        border-radius: 0;
+        position: none;
+
+    }
+
+    .bg-videoImage {
+        background-image: url(images/prohoma.jpg);
+        background-repeat: no-repeat;
+        width: 70%;
+        height: 300px;
+        margin: auto;
+        border-radius: 10px;
+        position: relative;
+
+    }
+
+    video {
+        border: 5px solid white;
+        width: 60%;
+        height: 150px;
+        margin-left: 45px;
+        margin-top: 70px;
+        border-radius: 5px;
+
+    }
+
+    .homabiope-express2 {
+        font-size: 1.5em;
+    }
+
+    .seven-section-icone {
+        display: flex;
+    }
+
+    .number-section {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #146c53;
+        margin: 0 0 0 10px;
+    }
+
+    .icone-seven-section {
+        font-size: 50px;
+        color: #0b5e99;
+    }
+
+    .image-seven-section {
+        background-image: none;
+        width: 0;
+        height: 0;
+        border-radius: 0;
+        position: none;
+        margin-bottom: 0;
+
+    }
+
+    .seven-section {
+        display: block;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    .seven-section-right {
+        margin-left: 10%;
+    }
+
+    .seven-section-right {
+        margin-left: 10%;
+    }
+
+    .text1-section-seven {
+        font-size: 1em;
+        margin: 0 0 0 10px;
+    }
+
+    .text2-section-seven {
+        font-size: 1em;
+        margin: 0 0 0 10px;
+    }
+
+
+
+    .eight-section {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .eight-section-bigblock {
+        background-image: none;
+        height: 0;
+        width: 100%;
+
+    }
+
+    .eight-section-smallblock {
+        display: none;
+        justify-content: space-evenly;
+        background-color: white;
+        width: 0;
+        height: 0;
+        position: relative;
+        z-index: 1;
+        bottom: 0;
+        margin: 0;
+        box-shadow: 0px 5px 5px #dfdfdf;
+    }
+
+    .icone-small-block {
+        margin-top: 0;
+        font-size: 0;
+    }
+
+    .icone-section-huit {
+        margin-left: 0;
+    }
+
+    .text-eight-section {
+        font-size: 0;
+        margin-top: 0;
+        color: none;
+        margin-left: 0;
+    }
+
+    .second-text-eight-section {
+        font-size: 0;
+        color: none;
+        max-width: 0;
+        margin-left: 0;
+    }
+
+    .trait-to {
+        display: none;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .eight-section-bigblock {
+        padding-top: 0;
+        position: absolute;
+    }
+
+    .news-letter-text {
+        font-size: 1em;
+        color: black;
+    }
+
+    .nine-section {
+        margin-top: 30px;
+        margin-bottom: 40px;
+
+    }
+
+    .icone-section-huit>i {
+        color: #0b5e99;
+    }
+
+    .input-letter-square {
+        width: 300px;
+        height: 40px;
+        outline: none;
+        border: none;
+        background-color: #dfdfdf;
+
+    }
+
+    .news-letter-text {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+    .nine-section-button {
+        padding: 15px;
+        background-color: #138a72;
+        border-radius: 20px;
+        color: white;
+        width: 100px;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+    }
+
+    .news-letter-square {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .button-nine-section-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    /* FOOTER SECTION */
+
+    .footer-section {
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        display: block;
+        padding-left: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-position: center;
+        color: white;
+        font-size: 0.8em;
+        justify-content: start;
+    }
+
+    li {
+        padding: 5;
+    }
+
+    .socialMedia {
+        font-size: 0;
+    }
+
+    .mediaIcons {
+        color: white;
+        padding: 0;
+    }
+
+    h4 {
+        font-size: 0;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 550px) {
+
+    /* NOS SERVICES SECTION */
+    .fifth-section {
+        display: block;
+        width: 250px;
+        margin: auto;
+        justify-content: center;
+        /* padding: 50px 50px; */
+    }
+
+    .square {
+        width: 300px;
+        height: 350px;
+        background-color: none;
+        margin-top: 50px;
+        box-shadow: 0px 3px 3px 2px #dfdfdf;
+
+    }
+
+    .square-square {
+        background-color: #146c53;
+        width: 300px;
+        height: 8px;
+        margin-bottom: 10px;
+    }
+
+    .section-learn-more {
+        display: flex;
+    }
+
+    .learn-more {
+        background-color: #146c53;
+        border-radius: 5px;
+        width: 120px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    .learn-more:hover {
+        background-color: #0b5e99;
+        cursor: pointer;
+    }
+
+    /* FIN DE NOS SERVICES SECTION */
+
+    /* HOMABIOPE EXPRESS1 */
+    .homabiope-express {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    .trait-rouge {
+        width: 40px;
+        border: 3px solid #0b5e99;
+    }
+
+    .trait-noir {
+        width: 20px;
+        border: 3px solid #0b5e99;
+    }
+
+    .trait {
+        display: flex;
+    }
+
+    .text-video {
+        font-size: 1.2em;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .favicon-section {
+        padding: 10px;
+    }
+
+    .first-favicon {
+        color: #0b5e99;
+        font-size: 15px;
+    }
+
+    .text-favicon {
+        font-size: 0.9em;
+        padding-left: 5px;
+    }
+
+    .favicon-text {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .call-section {
+        font-size: 1.1em;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .trait-blanc {
+        width: 500px;
+        border: 1px solid #7e7e7e;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    h2 {
+        text-align: center;
+        font-size: 2.5em;
+        color: #138a72;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .connexion-container {
+        border: 1px solid;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .wecome-container {
+        border: 0;
+        /* padding: 10px; */
+        display: flex;
+        justify-content: space-between;
+        background-color: #383838;
+    }
+
+    .welcome,
+    .day,
+    .mail {
+        color: white;
+        font-size: 0.9em;
+    }
+
+    .day-and-mail-container {
+        margin: 15px;
+    }
+
+    .day {
+        margin-right: 15px;
+    }
+
+    .logo-wrapper {
+        width: 100%;
+        height: 100px;
+        border: 0px solid;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    .info-animate {
+        border: 2px solid;
+        border-radius: 50px;
+        width: 300px;
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    marquee {
+        text-align: center;
+        padding-top: 10px;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        color: black;
+    }
+
+    .logoPicture {
+        margin-top: 5px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .signing-container {
+        display: flex;
+    }
+
+    .sign-in,
+    .login-up {
+        color: black;
+        border: 2px solid #0b5e99;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 15px;
+        text-align: center;
+    }
+
+
+    .nav {
+        text-align: center;
+        background-color: #146c53;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .menu {
+        margin: 0 30px 0 0;
+    }
+
+    .menu a {
+        color: white;
+        font-weight: bold;
+        margin: 0 30px;
+        line-height: 15px;
+
+    }
+
+    .bars {
+        margin: 30px 10px 0 0;
+        font-size: 2em;
+        line-height: 30px;
+        color: white;
+        display: none;
+        width: 30px;
+        float: right;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    .icone-section {
+        font-size: 50px;
+        margin-left: 10px;
+        color: #0b5e99;
+    }
+
+    .okoto {
+        width: 100%;
+        height: 800px;
+    }
+
+    .card-text {
+        font-size: 25px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .detail {
+        color: white;
+        font-weight: bold;
+
+    }
+
+    .card-text-explain {
+        margin-left: 10px;
+        font-size: 0.9em;
+        margin-top: 10px;
+    }
+
+    .read-more-text {
+        margin-left: 10px;
+        margin-top: 15px;
+        background-color: #146c53;
+        width: 80px;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .read-more-text:hover {
+        background-color: #0b5e99;
+    }
+
+    .six-fiction {
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+
+    .text-container {
+        padding: 10%;
+        color: white;
+        font-size: 40px;
+        margin-left: 2%;
+    }
+
+    .text-container>.bienvenue {
+        font-size: 23px;
+
+    }
+
+    .text-container>.demarches-admin {
+        font-size: 20px;
+    }
+
+
+    .fourth-container {
+        background-image: url(images/img13.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 600px;
+    }
+
+    .read-more {
+        width: 120px;
+        padding: 12px;
+        border-radius: 5px;
+        border: none;
+        background-color: #146c53;
+        color: white;
+        font-weight: bold;
+        font-size: 0.4em;
+    }
+
+    .read-more:hover {
+        cursor: pointer;
+        background-color: #0b5e99;
+    }
+
+    .fifth-section {
+        display: block;
+        justify-content: space-evenly;
+        /* padding: 50px 50px; */
+    }
+
+    .square {
+        width: 550px;
+        height: 300px;
+        margin: auto;
+        background-color: none;
+        margin-top: 50px;
+        box-shadow: 0px 3px 3px 2px #dfdfdf;
+
+    }
+
+    .square-square {
+        background-color: #146c53;
+        width: 550px;
+        height: 8px;
+        margin-bottom: 10px;
+    }
+
+    /* FIN DE NOS SERVICES */
+
+    .six-fiction {
+        display: block;
+        justify-content: space-around;
+    }
+
+    .homabiope-express {
+        font-size: 30px;
+    }
+
+    .homabiope-express2 {
+        font-size: 1.5em;
+    }
+
+    .trait-rouge {
+        width: 40px;
+        border: 3px solid #0b5e99;
+    }
+
+    .trait-noir {
+        width: 20px;
+        border: 3px solid #0b5e99;
+    }
+
+    .trait {
+        display: flex;
+    }
+
+    .bg-videoImage {
+        background-image: url(images/prohoma.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+        position: relative;
+        margin: auto;
+        margin-bottom: 50px;
+
+    }
+
+    video {
+        border: 3px solid white;
+        width: 70%;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: 30px;
+        padding: 0;
+        color: white;
+    }
+
+    .text-video {
+        font-size: 1em;
+        width: 250px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .favicon-section {
+        padding: 20px;
+    }
+
+    .first-favicon {
+        color: #0b5e99;
+    }
+
+    .favicon-text {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .call-section {
+        font-size: 0.8em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .six-section-button {
+        margin-left: 30px;
+    }
+
+    .section-learn-more {
+        margin-top: 15px;
+    }
+
+    .trait-blanc {
+        width: 500px;
+        border: 1px solid #7e7e7e;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .seven-section-icone {
+        display: flex;
+    }
+
+    .number-section {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #146c53;
+        margin: 0 0 0 30px;
+    }
+
+    .icone-seven-section {
+        font-size: 50px;
+        color: #0b5e99;
+    }
+
+    .image-seven-section {
+        background-image: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 0;
+        height: 0;
+        border-radius: 0;
+        position: relative;
+
+    }
+
+    .seven-section {
+        display: block;
+        margin-top: 0;
+    }
+
+    .seven-section-right {
+        margin-left: 0;
+    }
+
+    .seven-section-right {
+        margin-left: 0;
+    }
+
+    .text1-section-seven {
+        font-size: 1.2em;
+        margin: 0 0 0 30px;
+    }
+
+    .text2-section-seven {
+        font-size: 1em;
+        margin: 0 0 0 30px;
+    }
+
+    .eight-section {
+        margin-top: 120px;
+    }
+
+    .eight-section-bigblock {
+        background-image: url(images/resident.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        width: 100%;
+
+    }
+
+    .eight-section-smallblock {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+        width: 90%;
+        height: 160px;
+        position: relative;
+        z-index: 1;
+        bottom: -350px;
+        margin: auto;
+        box-shadow: 0px 5px 5px #dfdfdf;
+        margin-bottom: 450px;
+    }
+
+    .icone-small-block {
+        margin-top: 50px;
+        font-size: 1em;
+    }
+
+    .icone-section-huit {
+        margin-left: 35px;
+    }
+
+    .text-eight-section {
+        font-size: 1.2em;
+        margin-top: 18px;
+        color: white;
+        margin-left: 16%;
+    }
+
+    .second-text-eight-section {
+        font-size: 1.4em;
+        color: white;
+        max-width: 50%;
+        margin-left: 16%;
+    }
+
+    .trait-to {
+        display: flex;
+        margin-left: 14%;
+        padding: 20px;
+    }
+
+    .eight-section-bigblock {
+        padding-top: 30px;
+        position: absolute;
+    }
+
+    .news-letter-text {
+        margin-top: 30px;
+        font-size: 10px;
+        color: black;
+    }
+
+    .nine-section {
+        margin-top: 30%;
+        margin-bottom: 40px;
+
+    }
+
+    .icone-section-huit>i {
+        color: #0b5e99;
+    }
+
+    .input-letter-square {
+        width: 500px;
+        height: 50px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        background-color: #dfdfdf;
+
+    }
+
+    .news-letter-text {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 1.2em;
+    }
+
+    .nine-section-button {
+        padding: 15px;
+        background-color: #138a72;
+        border-radius: 30px;
+        color: white;
+        width: 150px;
+        border: none;
+        cursor: pointer;
+        font-size: 1.5em;
+    }
+
+    .news-letter-square {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .button-nine-section-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .footer-section {
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 750px;
+        display: block;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        background-position: center;
+        color: white;
+        font-size: 20px;
+        justify-content: space-around;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    .socialMedia {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    .mediaIcons {
+        color: white;
+        padding: 5px;
+    }
+
+    h4 {
+        padding-left: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1024px) {
+
+    /* homabiope express2 */
+    .seven-section-icone {
+        display: flex;
+    }
+
+    .number-section {
+        font-size: 1.8em;
+        font-weight: bold;
+        color: #146c53;
+        margin: 0 0 0 30px;
+    }
+
+    .icone-seven-section {
+        font-size: 50px;
+        color: #0b5e99;
+    }
+
+    .image-seven-section {
+        background-image: url(images/prohoma.jpg);
+        width: 300px;
+        height: 430px;
+        border-radius: 10px;
+        position: relative;
+
+    }
+
+    .seven-section {
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-around;
+        width: 70%;
+        margin: auto;
+    }
+
+    .seven-section-right {
+        margin-left: 10%;
+    }
+
+    .seven-section-right {
+        margin-left: 10%;
+    }
+
+    .homabiope-express2 {
+        font-size: 1.2em;
+    }
+
+    .homabiope-express {
+        font-size: 30px;
+    }
+
+    .text1-section-seven {
+        font-size: 1em;
+        margin: 0 0 0 30px;
+    }
+
+    .text2-section-seven {
+        font-size: 0.8em;
+        margin: 0 0 0 30px;
+    }
+
+    .text-video {
+        font-size: 1em;
+        width: 250px;
+        text-align: start;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .eight-section-smallblock {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+        width: 90%;
+        height: 160px;
+        position: relative;
+        z-index: 1;
+        bottom: -350px;
+        margin: auto;
+        box-shadow: 0px 5px 5px #dfdfdf;
+        margin-bottom: 450px;
+    }
+
+    .icone-small-block {
+        margin-top: 50px;
+        font-size: 1.7em;
+    }
+
+    .icone-section-huit {
+        margin-left: 35px;
+    }
+
+    .input-letter-square {
+        width: 550px;
+        height: 50px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        background-color: #dfdfdf;
+
+    }
+
+    .nine-section-button {
+        padding: 10px;
+        background-color: #138a72;
+        border-radius: 30px;
+        color: white;
+        width: 150px;
+        border: none;
+        cursor: pointer;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    /* homabiope express2 */
+    .seven-section-icone {
+        display: flex;
+    }
+
+    .number-section {
+        font-size: 1.8em;
+        font-weight: bold;
+        color: #146c53;
+        margin: 0 0 0 30px;
+    }
+
+    .icone-seven-section {
+        font-size: 50px;
+        color: #0b5e99;
+    }
+
+    .image-seven-section {
+        background-image: url(images/prohoma.jpg);
+        width: 300px;
+        height: 430px;
+        border-radius: 10px;
+        position: relative;
+
+    }
+
+    .seven-section {
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-around;
+        width: 70%;
+        margin: auto;
+    }
+
+    .seven-section-right {
+        margin-left: 10%;
+    }
+
+    .seven-section-right {
+        margin-left: 10%;
+    }
+
+    .homabiope-express2 {
+        font-size: 1.2em;
+    }
+
+    .homabiope-express {
+        font-size: 30px;
+    }
+
+    .text1-section-seven {
+        font-size: 1em;
+        margin: 0 0 0 30px;
+    }
+
+    .text2-section-seven {
+        font-size: 0.8em;
+        margin: 0 0 0 30px;
+    }
+
+    .text-video {
+        font-size: 1em;
+        width: 250px;
+        text-align: start;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .eight-section-smallblock {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+        width: 90%;
+        height: 150px;
+        position: relative;
+        z-index: 1;
+        bottom: -350px;
+        margin: auto;
+        box-shadow: 0px 5px 5px #dfdfdf;
+        margin-bottom: 450px;
+    }
+
+    .icone-small-block {
+        margin-top: 50px;
+        font-size: 1.7em;
+    }
+
+    .icone-section-huit {
+        margin-left: 35px;
+    }
+
+    .input-letter-square {
+        width: 550px;
+        height: 50px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        background-color: #dfdfdf;
+
+    }
+
+    .nine-section-button {
+        padding: 10px;
+        background-color: #138a72;
+        border-radius: 30px;
+        color: white;
+        width: 150px;
+        border: none;
+        cursor: pointer;
+        font-size: 1.5em;
+    }
+
+
+
+    .six-fiction {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .signature {
+        margin-top: 60px;
+        font-size: 1em;
+        color: black;
+
+    }
+
+    .homabiope-express {
+        font-size: 45px;
+    }
+
+    .homabiope-express2 {
+        font-size: 45px;
+    }
+
+    .trait-rouge {
+        width: 40px;
+        border: 3px solid #0b5e99;
+    }
+
+    .trait-noir {
+        width: 20px;
+        border: 3px solid #0b5e99;
+    }
+
+    .trait {
+        display: flex;
+    }
+
+    .bg-videoImage {
+        background-image: url(images/prohoma.jpg);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 400px;
+        border-radius: 10px;
+        position: relative;
+
+    }
+
+    video {
+        border: 3px solid white;
+        width: 70%;
+        height: 200px;
+        margin-left: 45px;
+        margin-top: 100px;
+        padding: 0;
+        color: white;
+    }
+
+    .text-video {
+        font-size: 20px;
+        width: 700px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .favicon-section {
+        padding: 20px;
+    }
+
+    .first-favicon {
+        color: #0b5e99;
+    }
+
+    .favicon-text {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .call-section {
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .six-section-button {
+        margin-left: 30px;
+    }
+
+    .section-learn-more {
+        margin-top: 15px;
+    }
+
+    .trait-blanc {
+        width: 500px;
+        border: 1px solid #7e7e7e;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .seven-section-icone {
+        display: flex;
+    }
+
+    .number-section {
+        font-size: 40px;
+        font-weight: bold;
+        color: #146c53;
+        margin: 0 0 0 30px;
+    }
+
+    .icone-seven-section {
+        font-size: 50px;
+        color: #0b5e99;
+    }
+
+    .image-seven-section {
+        background-image: url(images/prohoma.jpg);
+        width: 400px;
+        height: 430px;
+        border-radius: 10px;
+        position: relative;
+
+    }
+
+    .seven-section {
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-around;
+    }
+
+    .seven-section-right {
+        margin-left: 10%;
+    }
+
+    .seven-section-right {
+        margin-left: 10%;
+    }
+
+    .text1-section-seven {
+        font-size: 23px;
+        margin: 0 0 0 30px;
+    }
+
+    .text2-section-seven {
+        font-size: 20px;
+        margin: 0 0 0 30px;
+    }
+
+    .eight-section {
+        margin-top: 120px;
+    }
+
+    .eight-section-bigblock {
+        background-image: url(images/resident.jpg);
+        height: 400px;
+        width: 100%;
+
+    }
+
+    .eight-section-smallblock {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+        width: 70%;
+        height: 160px;
+        position: relative;
+        z-index: 1;
+        bottom: -350px;
+        margin: auto;
+        box-shadow: 0px 5px 5px #dfdfdf;
+    }
+
+    .icone-small-block {
+        margin-top: 35px;
+        font-size: 30px;
+    }
+
+    .icone-section-huit {
+        margin-left: 35px;
+    }
+
+    .text-eight-section {
+        font-size: 40px;
+        margin-top: 18px;
+        color: white;
+        margin-left: 16%;
+    }
+
+    .second-text-eight-section {
+        font-size: 23px;
+        color: white;
+        max-width: 50%;
+        margin-left: 16%;
+    }
+
+    .trait-to {
+        display: flex;
+        margin-left: 16%;
+        padding: 20px;
+    }
+
+    .eight-section-bigblock {
+        padding-top: 30px;
+        position: absolute;
+    }
+}
